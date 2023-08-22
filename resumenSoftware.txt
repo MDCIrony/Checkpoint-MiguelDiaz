@@ -1,0 +1,4 @@
+Discord
+GoogleChrome
+VSCode
+

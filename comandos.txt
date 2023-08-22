@@ -1,0 +1,66 @@
+903  mkdir Checkpoint-MiguelDiaz
+  904  cd Checkpoint-MiguelDiaz
+  905  l
+  906  git init
+  907  l
+  908  clear
+  909  git remote --help
+  910  git remote add origin git@github.com:MDCIrony/Checkpoint-MiguelDiaz.git
+  911  git remote
+  912  git remote origin
+  913  git fetch
+  914  clear
+  915  git status
+  916  l
+  917  git pull
+  918  git pull origin -u main
+  919  git pull origin main
+  920  clear
+  921  l
+  922  touch main.js index.html
+  923  l
+  924  git add .
+  925  git commit -m "commit 01 de MiguelDiaz"
+  926  clear
+  927  git status
+  928  git push
+  929  git push origin -u main
+  930  clear
+  931  git status
+  932  l
+  933  git branch
+  934  clear
+  935  git branch feature
+  936  git branch
+  937  git checkout branch
+  938  git checkout feature
+  939  clear
+  940  mkdir Hardware Software SeguridadInformatica
+  941  l
+  942  touch Hardware/resumen.txt SeguridadInformatica/resumen.txt Software/resumen.txt
+  943  l Hardware
+  944  l SeguridadInformatica
+  945  l Software
+  946  clear
+  947  l
+  948  git add .
+  949  git commit -m "commit 02 de MiguelDiaz"
+  950  git push origin -u feature
+  951  clear
+  952  git checkout main
+  953  git branch
+  954  l
+  955  mv main.js resumenHardware.txt
+  956  l
+  957  clear
+  958  mv index.html resumenSoftware.txt
+  959  l
+  960  vim resumenSoftware.txt
+  961  cat resumenSoftware.txt
+  962  clear
+  963  vim resumenHardware.txt
+  964  clear
+  965  vim comandos.txt
+  966  git add .
+  967  git commit -m "commit 03 de MiguelDiaz"
+
